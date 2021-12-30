@@ -1,7 +1,4 @@
-variable "aws_credentials" {
-  access-key :"AKIA5Q2KYCR3IJ23GIW5"
-  secret-key :"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"
-}
+
 variable "aws_region" {
   description = "The AWS region to create things in."
   default     = "us-west-1"
