@@ -9,9 +9,7 @@ terraform {
 
 provider "aws" {
   region = var.aws_region
-  access_key = "AKIA5Q2KYCR3IJ23GIW5"
-  secret_key = "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"
-}
+  }
 
 #Create security group with firewall rules
 resource "aws_security_group" "my_security_group" {
